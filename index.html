@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatiible" content="IE-edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title> Responsive Product Landing Page</title>
+
+        <link rel="stylesheet" href="./style.css">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
+       
+    
+    </head>
+    <body>
+        <!--HEADER-->
+        <header class="container header">
+            <!--NAVBAR-->
+            <nav class="nav">
+                <div class="logo">
+                    <h2>DevKit</h2>
+                </div>
+                <div class="nav-menu">
+                    <button class="close_btn">
+                        <i class="ri-close-fill"></i>
+                    </button>
+                    <ul class="nav-menu-list">
+                        <li class="nav-menu-item">
+                            <a href="#" class="nav-menu-link">Account</a>
+                        </li>
+                        <li class="nav-menu-item">
+                            <a href="#" class="nav-menu-link">About</a>
+                        </li>
+                        <li class="nav-menu-item">
+                            <a href="#" class="nav-menu-link">Service</a>
+                        </li>
+                        <li class="nav-menu-item">
+                            <a href="#" class="nav-menu-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <button class="menu_btn">
+                    <i class="ri-menu-line"></i>
+                </button>
+            </nav>
+        </header>
+
+
+        <!--MAIN SECTION-->
+
+        <main class="wrapper">
+            <div class="grid-cols-2">
+                <div class="grid-item-1">
+                    <!--Paragraph with main heading and two buttons-->
+                    <h1 class="main-heading">Welcome To <span>Devkit</span>
+                    <br/>Develop Anything.
+                    </h1>
+                    <p class="main-text">
+                        Build a beautiful, modern website with flexible components built
+                        from scratch.
+                    </p> 
+                    <div class="btn-wrapper">
+                    <button class="btn view_more_btn">View All Pages</button> 
+                    <button class="btn documentation_btn">Documentation</button> 
+                    </div>  
+                </div>
+                <div class="grid-item-2">
+                    <!--Holding the images-->
+                    <div class="img_wrapper">
+                        <img src="https://images.unsplash.com/photo-1493020258366-be3ead1b3027?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80" alt="Image of a computer">
+                    </div>
+                </div>
+            </div>
+        </main>
+        <script src="./script.js"></script>
+    </body>
+</html>
